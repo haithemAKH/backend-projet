@@ -4,10 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "front": "cd client && npm start",
-    "back": "nodemon server.js",
-    "dev": "concurrently \"npm run front\" \"npm run back\"",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev_start": "nodemon server.js"
   },
   "engines": {
     "node": "16.x",
